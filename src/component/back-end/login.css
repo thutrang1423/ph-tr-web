@@ -1,0 +1,40 @@
+.sectionLogin{
+    display: inline-block;
+    border: 1px solid;
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    left: 36%;
+    top: 25%;
+    border-radius: 5%;
+}
+
+.inform{
+    display: block;
+    padding: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 4px 11px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3bdde1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button:hover {
+    background-color: #31a396;
+}
+  
+.button:active {
+    background-color: #31a396;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
